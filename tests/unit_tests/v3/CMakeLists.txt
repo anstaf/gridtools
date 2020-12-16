@@ -1,0 +1,1 @@
+gridtools_add_unit_test(test_v3_print SOURCES test_v3_print.cpp)
