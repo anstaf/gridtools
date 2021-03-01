@@ -162,3 +162,12 @@ else()
     add_subdirectory( communication )
 
 endif()
+
+add_library(example_1 example_1.cpp)
+target_link_libraries(example_1 gridtools)
+
+add_library(example_2 example_2.cpp)
+target_link_libraries(example_2 gridtools)
+
+add_library(example3 example3.cpp)
+target_link_libraries(example3 gridtools)
